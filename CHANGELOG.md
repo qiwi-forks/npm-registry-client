@@ -1,3 +1,11 @@
+## [8.6.1](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.0...v8.6.1) (2020-11-30)
+
+
+### Bug Fixes
+
+* **package:** fix repo url ([ca9d173](https://github.com/qiwi-forks/npm-registry-client/commit/ca9d1739a74bb7b856d6cfe13b99e7bf9469dcde))
+* up deps, fix vuls ([b10e1a8](https://github.com/qiwi-forks/npm-registry-client/commit/b10e1a8571604928cd5f417a999073fbfed86f89))
+
 # Change Log
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

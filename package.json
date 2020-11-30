@@ -2,7 +2,7 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "name": "@qiwi/npm-registry-client",
   "description": "Client for the npm registry",
-  "version": "8.6.0",
+  "version": "8.6.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/qiwi-forks/npm-registry-client.git"
