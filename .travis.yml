@@ -20,8 +20,10 @@ jobs:
     - stage: build
       if: branch = master
       os: linux
-      install: yarn
-      script: yarn build
+      install:
+        - npm install
+        - npm install -g npm@latest
+      script: skip
       # https://docs.travis-ci.com/user/using-workspaces/
       workspaces:
         create:

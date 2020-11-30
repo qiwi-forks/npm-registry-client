@@ -1,17 +1,16 @@
 {
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
-  "name": "npm-registry-client",
+  "name": "@qiwi/npm-registry-client",
   "description": "Client for the npm registry",
   "version": "8.6.0",
   "repository": {
-    "url": "https://github.com/npm/npm-registry-client.git"
+    "url": "https://github.com/qiwi/npm-registry-client.git"
   },
   "main": "index.js",
   "scripts": {
     "prerelease": "npm t",
     "postrelease": "npm publish && git push --follow-tags",
     "pretest": "standard",
-    "release": "standard-version -s",
     "test": "tap --nyc-arg=--all --coverage --jobs=1 test/*.js"
   },
   "files": [
