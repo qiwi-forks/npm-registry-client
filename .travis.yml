@@ -16,7 +16,9 @@ jobs:
         - npm install -g npm@latest
         - npm --version
       script:
-        - npm test
+        - if [ $CI_TEST != "false" ]; then
+            npm test;
+          fi
     - stage: build
       if: branch = master
       os: linux
