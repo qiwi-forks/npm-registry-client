@@ -4,7 +4,8 @@
   "description": "Client for the npm registry",
   "version": "8.6.0",
   "repository": {
-    "url": "https://github.com/qiwi/npm-registry-client.git"
+    "type": "git",
+    "url": "https://github.com/qiwi-forks/npm-registry-client.git"
   },
   "main": "index.js",
   "scripts": {
