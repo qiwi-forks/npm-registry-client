@@ -32,7 +32,7 @@ jobs:
             - node_modules
 
     - &test
-      if: branch = master AND type = pull_request
+      if: branch = master AND type = pull_request AND env(CI_TEST) != false
       stage: test
       os: linux
       script: npm test
