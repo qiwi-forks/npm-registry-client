@@ -16,6 +16,7 @@ jobs:
         - npm install -g npm@latest
         - npm --version
       script:
+        - npm run build
         - if [ $CI_TEST != "false" ]; then
             npm test;
           fi
@@ -25,12 +26,14 @@ jobs:
       install:
         - npm install
         - npm install -g npm@latest
-      script: skip
+      script:
+        - npm run build
       # https://docs.travis-ci.com/user/using-workspaces/
       workspaces:
         create:
           name: linux-shared
           paths:
+            - docs
             - node_modules
 
     - &test
