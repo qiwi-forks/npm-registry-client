@@ -1,3 +1,10 @@
+## [8.6.2](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.1...v8.6.2) (2020-12-02)
+
+
+### Bug Fixes
+
+* change package visibility ([#3](https://github.com/qiwi-forks/npm-registry-client/issues/3)) ([c45ebb6](https://github.com/qiwi-forks/npm-registry-client/commit/c45ebb6e97d09e98fd93a6926544153e90559bf6))
+
 ## [8.6.1](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.0...v8.6.1) (2020-11-30)
 
 
