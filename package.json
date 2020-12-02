@@ -17,7 +17,7 @@
     "postrelease": "npm publish && git push --follow-tags",
     "pretest": "standard",
     "test": "tap --nyc-arg=--all --coverage --jobs=1 test/*.js",
-    "docs": "mkdir -p docs && cp ./README.md ./docs/README.ms",
+    "docs": "mkdir -p docs && cp ./README.md ./docs/README.md",
     "build": "npm run docs"
   },
   "files": [
