@@ -1,3 +1,10 @@
+## [8.6.3](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.2...v8.6.3) (2020-12-03)
+
+
+### Bug Fixes
+
+* typo in  script ([#4](https://github.com/qiwi-forks/npm-registry-client/issues/4)) ([a03f2ca](https://github.com/qiwi-forks/npm-registry-client/commit/a03f2ca437b6f56cd1b9de86a540744583594402))
+
 ## [8.6.2](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.1...v8.6.2) (2020-12-02)
 
 
