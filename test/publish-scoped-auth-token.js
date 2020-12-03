@@ -11,10 +11,10 @@ var client = common.freshClient()
 
 tap.test('publish', function (t) {
   // not really a tarball, but doesn't matter
-  var bodyPath = require.resolve('../package.json')
+  var bodyPath = require.resolve('./package-old.json')
   var tarball = fs.createReadStream(bodyPath)
   var pd = fs.readFileSync(bodyPath)
-  var pkg = require('../package.json')
+  var pkg = require('./package-old.json')
   pkg.name = '@npm/npm-registry-client'
 
   server.expect('/@npm%2fnpm-registry-client', function (req, res) {
