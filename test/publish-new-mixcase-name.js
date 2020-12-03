@@ -10,10 +10,10 @@ var URI = 'http://localhost:1337/'
 var USERNAME = 'username'
 var PASSWORD = '%1234@asdf%'
 var EMAIL = 'i@izs.me'
-var METADATA = require('../package.json')
+var METADATA = require('./package-old.json')
 var ACCESS = 'public'
 // not really a tarball, but doesn't matter
-var BODY_PATH = require.resolve('../package.json')
+var BODY_PATH = require.resolve('./package-old.json')
 var BODY = fs.createReadStream(BODY_PATH)
 var AUTH = {
   username: USERNAME,
