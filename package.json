@@ -6,6 +6,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "types": "index.d.ts",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
   "private": false,
   "repository": {
     "type": "git",
@@ -22,7 +26,8 @@
   },
   "files": [
     "lib",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "dependencies": {
     "concat-stream": "^2.0.0",
