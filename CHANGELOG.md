@@ -1,3 +1,10 @@
+# [8.7.0](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.3...v8.7.0) (2021-01-11)
+
+
+### Features
+
+* add types ([#6](https://github.com/qiwi-forks/npm-registry-client/issues/6)) ([2b7b4d1](https://github.com/qiwi-forks/npm-registry-client/commit/2b7b4d194b1c152a06f376e5a29ebd7e50764688)), closes [#5](https://github.com/qiwi-forks/npm-registry-client/issues/5)
+
 ## [8.6.3](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.2...v8.6.3) (2020-12-03)
 
 
