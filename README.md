@@ -1,6 +1,6 @@
 # @qiwi/npm-registry-client
 
-The fork of [npm/npm-registry-client](https://github.com/npm/npm-registry-client) that fixes the most vulnerabilities and brings deps from 2020
+The fork of [npm/npm-registry-client](https://github.com/npm/npm-registry-client) that fixes the most vulnerabilities, brings deps from 2020 and adds some typings.
 
 ## Install
 ```shell script
