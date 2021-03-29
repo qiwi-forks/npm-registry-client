@@ -1,5 +1,6 @@
 declare module '@qiwi/npm-registry-client' {
   import { ReadStream } from 'fs'
+  import { Packument } from '@qiwi/npm-types'
   type TAuth = { alwaysAuth?: boolean } & (
     {
       username: string
@@ -20,18 +21,22 @@ declare module '@qiwi/npm-registry-client' {
   }
 
   type TAccess = 'public' | 'restricted'
+  type TResultInfo = {
+    success: boolean
+    error?: string
+  }
 
   class RegClient {
     deprecate(
       uri: string,
       params: TPackage & { auth: TAuth },
-      cb: TCallback
+      cb: TCallback<TResultInfo | null>
     ): void
 
     get(
       uri: string,
       params: any,
-      cb: TCallback
+      cb: TCallback<Packument | TResultInfo | null>
     ): void
 
     publish(
@@ -52,7 +57,7 @@ declare module '@qiwi/npm-registry-client' {
           package: string
           auth: TAuth
         },
-        cb: TCallback<Record<string, string>>
+        cb: TCallback<TResultInfo | null | Record<string, string>>
       ): void
 
       add(
@@ -63,7 +68,7 @@ declare module '@qiwi/npm-registry-client' {
           version: string
           auth: TAuth
         },
-        cb: TCallback<void>
+        cb: TCallback<TResultInfo | null>
       ): void
 
       set(
@@ -73,7 +78,7 @@ declare module '@qiwi/npm-registry-client' {
           distTags: Record<string, string>
           auth: TAuth
         },
-        cb: TCallback<void>
+        cb: TCallback<TResultInfo | null>
       ): void
 
       update(
@@ -83,7 +88,7 @@ declare module '@qiwi/npm-registry-client' {
           distTags: Record<string, string>
           auth: TAuth
         },
-        cb: TCallback<void>
+        cb: TCallback<TResultInfo | null>
       ): void
 
       rm(
@@ -93,7 +98,7 @@ declare module '@qiwi/npm-registry-client' {
           distTag: string
           auth: TAuth
         },
-        cb: TCallback<void>
+        cb: TCallback<TResultInfo | null>
       ): void
     }
   }

@@ -43,6 +43,7 @@
     "ssri": "^8.0.0"
   },
   "devDependencies": {
+    "@qiwi/npm-types": "^1.0.2",
     "negotiator": "^0.6.2",
     "nock": "^13.0.5",
     "readable-stream": "^3.6.0",
