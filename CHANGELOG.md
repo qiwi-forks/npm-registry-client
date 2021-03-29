@@ -1,3 +1,10 @@
+# [8.8.0](https://github.com/qiwi-forks/npm-registry-client/compare/v8.7.0...v8.8.0) (2021-03-29)
+
+
+### Features
+
+* add dist tags typings ([#7](https://github.com/qiwi-forks/npm-registry-client/issues/7)) ([fe95ae4](https://github.com/qiwi-forks/npm-registry-client/commit/fe95ae4632c74aa2b0bf3b8665fa197e0aeae487))
+
 # [8.7.0](https://github.com/qiwi-forks/npm-registry-client/compare/v8.6.3...v8.7.0) (2021-01-11)
 
 
