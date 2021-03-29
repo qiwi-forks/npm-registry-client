@@ -44,6 +44,58 @@ declare module '@qiwi/npm-registry-client' {
       },
       cb: TCallback
     ): void
+
+    distTags: {
+      fetch(
+        uri: string,
+        params: {
+          package: string
+          auth: TAuth
+        },
+        cb: TCallback<Record<string, string>>
+      ): void
+
+      add(
+        uri: string,
+        params: {
+          package: string
+          distTag: string
+          version: string
+          auth: TAuth
+        },
+        cb: TCallback<void>
+      ): void
+
+      set(
+        uri: string,
+        params: {
+          package: string
+          distTags: Record<string, string>
+          auth: TAuth
+        },
+        cb: TCallback<void>
+      ): void
+
+      update(
+        uri: string,
+        params: {
+          package: string
+          distTags: Record<string, string>
+          auth: TAuth
+        },
+        cb: TCallback<void>
+      ): void
+
+      rm(
+        uri: string,
+        params: {
+          package: string
+          distTag: string
+          auth: TAuth
+        },
+        cb: TCallback<void>
+      ): void
+    }
   }
   export = RegClient
 }
