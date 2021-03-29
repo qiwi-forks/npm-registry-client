@@ -93,7 +93,7 @@ declare module '@qiwi/npm-registry-client' {
           distTag: string
           auth: TAuth
         },
-        cb: TCallback
+        cb: TCallback<void>
       ): void
     }
   }
