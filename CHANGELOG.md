@@ -1,3 +1,10 @@
+## [8.8.1](https://github.com/qiwi-forks/npm-registry-client/compare/v8.8.0...v8.8.1) (2021-03-29)
+
+
+### Bug Fixes
+
+* return types ([#8](https://github.com/qiwi-forks/npm-registry-client/issues/8)) ([c3e5f94](https://github.com/qiwi-forks/npm-registry-client/commit/c3e5f94c3eb3c214943293854c1788f93316771c))
+
 # [8.8.0](https://github.com/qiwi-forks/npm-registry-client/compare/v8.7.0...v8.8.0) (2021-03-29)
 
 
