@@ -26,7 +26,37 @@ declare module '@qiwi/npm-registry-client' {
     error?: string
   }
 
+  type TConfig = {
+    proxy?: {
+      http: string
+      https?: string
+      localAddress: string
+    }
+    ssl?: {
+      ca: string
+      certificate: string
+      key: string
+      strict?: boolean
+    }
+    retry?: {
+      retries?: number
+      factor?: number
+      minTimeout?: number
+      maxTimeout?: number
+    }
+    userAgent?: string
+    log?: any
+    defaultTag?: string
+    couchToken?: string
+    sessionToken?: string
+    maxSockets?: number
+    isFromCI?: boolean
+    scope?: string
+  }
+
   class RegClient {
+    constructor(config: TConfig)
+
     deprecate(
       uri: string,
       params: TPackage & { auth: TAuth },
