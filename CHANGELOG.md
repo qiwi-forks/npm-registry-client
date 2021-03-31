@@ -1,3 +1,10 @@
+# [8.9.0](https://github.com/qiwi-forks/npm-registry-client/compare/v8.8.1...v8.9.0) (2021-03-31)
+
+
+### Features
+
+* add constructor types ([#9](https://github.com/qiwi-forks/npm-registry-client/issues/9)) ([d6d5668](https://github.com/qiwi-forks/npm-registry-client/commit/d6d566890463513dc914a9757c47d19d5f57a199))
+
 ## [8.8.1](https://github.com/qiwi-forks/npm-registry-client/compare/v8.8.0...v8.8.1) (2021-03-29)
 
 
