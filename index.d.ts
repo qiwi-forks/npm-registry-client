@@ -55,7 +55,7 @@ declare module '@qiwi/npm-registry-client' {
   }
 
   class RegClient {
-    constructor(config: TConfig)
+    constructor(config?: TConfig)
 
     deprecate(
       uri: string,
